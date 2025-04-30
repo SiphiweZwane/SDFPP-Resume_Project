@@ -1,22 +1,120 @@
+
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>Professional Resume</title>
   <link href="Styles.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <section class="profile-section">
-        <img src="attached_assets/Siphiwe.jpg" alt="Profile Picture" class="profile-picture">
-        <div class="profile-content">
-          <h1 class="profile-name">Siphiwe Zwane</h1>
-          <p class="profile-bio">Experienced software developer with a passion for creating elegant solutions to complex problems. Specializing in web development and user interface design with a focus on performance and accessibility.</p>
-        </div>
-      </section>
-      <script src="script.js"></script>
-</body>
+  <main class="resume">
+    <header class="profile">
+      <img src="Images/Siphiwe.jpg" alt="Profile Picture" class="profile-image">
+      <div class="profile-info">
+        <h1>Siphiwe Zwane</h1>
+        <p>I am a results-driven, organized software developer with a strong foundation in developing and React. With hands-on experience in building dynamic and responsive web applications, I excel at transforming complex requirements into intuitive user interfaces.</p>
+      </div>
+    </header>
 
+    <section class="proficiency">
+      <h2>Proficiency</h2>
+      <div class="skill-bars">
+        <div class="skill">
+          <span>Javascript</span>
+          <div class="bar"><div style="width: 90%"></div></div>
+        </div>
+        <div class="skill">
+          <span>React</span>
+          <div class="bar"><div style="width: 75%"></div></div>
+        </div>
+        <div class="skill">
+          <span>Node.js</span>
+          <div class="bar"><div style="width: 60%"></div></div>
+        </div>
+        <div class="skill">
+          <span>HTML + CSS</span>
+          <div class="bar"><div style="width: 85%"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <span>Software Development</span>
+        <span>Agile</span>
+        <span>UI Design</span>
+        <span>Problem Solving</span>
+        <span>Git And Version Control</span>
+        <span>Web Development</span>
+        <span>Team Collaboration</span>
+        <span>Functional Programming</span>
+        <span>RESTful APIs</span>
+      </div>
+    </section>
+
+    <section class="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <div class="project-header">
+            <span class="year">2025</span>
+            <h3>Portfolio Website</h3>
+          </div>
+          <p class="brief">Developed a personal portfolio website to showcase projects and skills</p>
+          <div class="tech-stack">
+            <h4>Technologies used:</h4>
+            <p>React.js, HTML, CSS</p>
+          </div>
+          <div class="responsibilities">
+            <h4>Responsibilities:</h4>
+            <p>Designed and implemented the website structure and layout, focusing on accessibility</p>
+          </div>
+        </div>
+        <!-- More project cards following the same structure -->
+      </div>
+    </section>
+
+    <section class="education">
+      <h2>Education</h2>
+      <div class="education-item">
+        <div class="edu-period">Aug 2023 - Mar 2024</div>
+        <div class="edu-details">
+          <h3>Codespace Academy</h3>
+          <p>Software Development</p>
+          <p>Full-time</p>
+          <ul>
+            <li>Focused on React and JavaScript to build intuitive, dynamic web applications</li>
+            <li>Worked on several full-stack development projects</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="tools">
+      <h2>Tools</h2>
+      <div class="tools-grid">
+        <div class="tool-group">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+        </div>
+        <!-- Add more tool groups as needed -->
+      </div>
+    </section>
+
+    <footer>
+      <p>Let's chat! I'm ready to work on exciting projects.</p>
+      <div class="contact-links">
+        <a href="mailto:example@email.com">example@email.com</a>
+        <span>|</span>
+        <a href="tel:073-245-6789">073 245 6789</a>
+        <span>|</span>
+        <a href="https://github.com">GitHub Link</a>
+      </div>
+    </footer>
+  </main>
+</body>
 </html>
+
