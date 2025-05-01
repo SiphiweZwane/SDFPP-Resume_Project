@@ -161,7 +161,23 @@
     padding: 1.5rem;
     border-radius: 8px;
     color: #000000;
-  }
+    position: relative;
+}
+
+.heart-icon {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 16px;
+  height: 16px;
+  color: #CCCCCC;
+  
+}
+
+.heart-icon.active {
+  color: #D9534F;
+}
+
 
   .project-card:first-child {
     background: #2E6E5B;
