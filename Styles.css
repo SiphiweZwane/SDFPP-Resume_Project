@@ -205,6 +205,20 @@
 .project-card:first-child p {
   color: #FFFFFF;
 }
+
+.education-tools-wrapper {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .education {
+    flex: 2;
+  }
+  
+  .tools {
+    flex: 1;
+  }
+  
   
   .education-item {
     display: flex;
