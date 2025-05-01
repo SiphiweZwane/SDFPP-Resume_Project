@@ -220,6 +220,8 @@
   .edu-period {
     min-width: 150px;
     color: #FFFFFF;
+    flex-shrink: 0;
+    margin-right: 1rem;
   }
 
   .most-recent-badge {
