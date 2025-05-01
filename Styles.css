@@ -46,7 +46,7 @@
   .proficiency-labels span {
     font-family: 'Inter', sans-serif;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: bold; /* These are the attributes for the labels on proficiency section*/
     color: #000000;
   }
   
@@ -160,6 +160,12 @@
     background: #f8f9fa;
     padding: 1.5rem;
     border-radius: 8px;
+    color: #000000;
+  }
+
+  .project-card:first-child {
+    background: #2E6E5B;
+    color: #FFFFFF;
   }
   
   .project-header {
@@ -169,12 +175,20 @@
     margin-bottom: 1rem;
   
   }
+
   
   .year {
     color: #666;
     font-size: 0.9rem;
     margin-bottom: 0.25rem;
   }
+
+.project-card:first-child .year,
+.project-card:first-child h3,
+.project-card:first-child h4,
+.project-card:first-child p {
+  color: #FFFFFF;
+}
   
   .education-item {
     display: flex;
