@@ -210,11 +210,27 @@
     display: flex;
     gap: 2rem;
     margin-bottom: 1.5rem;
+    background: #2E6E5B;
+    padding: 1.5rem;
+    border-radius: 8px;
+    color: #FFFFFF;
+    position: relative;
   }
   
   .edu-period {
     min-width: 150px;
-    color: #666;
+    color: #FFFFFF;
+  }
+
+  .most-recent-badge {
+    background: #D9534F;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 8px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
   }
   
   .tools-grid {
