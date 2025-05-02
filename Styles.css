@@ -272,7 +272,7 @@ color: #FFFFFF;
   top: 8px;
   right: 8px;
 }
-
+/*Removed tools grid and placed tools container to make it responsive*/
 .tools-container {
   display: flex;
   flex-direction: column;
